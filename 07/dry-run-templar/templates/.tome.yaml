@@ -1,0 +1,5 @@
+target: out
+values:
+  service: myapp
+strip:
+  - .tpl
