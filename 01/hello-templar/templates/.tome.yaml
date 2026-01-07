@@ -1,0 +1,5 @@
+target: out
+values:
+  name: World
+strip:
+  - .tpl
