@@ -1,0 +1,7 @@
+target: out
+values:
+  appName: DebugApp
+  env: dev
+  missingKey: PresentNow
+strip:
+  - .tpl
