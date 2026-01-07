@@ -1,0 +1,10 @@
+app:
+  name: my-app
+  replicas: 4
+  environment: prod
+
+# Import database definitions dynamically based on environment
+databases:
+  - name: proddb
+    user: prod_user
+    password: prod_pass

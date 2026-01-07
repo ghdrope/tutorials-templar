@@ -1,0 +1,17 @@
+- target: out/dev
+  values:
+    env: dev
+    app:
+      name: my-app
+      replicas: 2
+  strip:
+    - .tpl
+
+- target: out/prod
+  values:
+    env: prod
+    app:
+      name: my-app
+      replicas: 4
+  strip:
+    - .tpl

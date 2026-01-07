@@ -1,0 +1,4 @@
+databases:
+  - name: proddb
+    user: prod_user
+    password: prod_pass

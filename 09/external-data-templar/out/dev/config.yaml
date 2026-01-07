@@ -1,0 +1,10 @@
+app:
+  name: my-app
+  replicas: 2
+  environment: dev
+
+# Import database definitions dynamically based on environment
+databases:
+  - name: devdb
+    user: dev_user
+    password: dev_pass
