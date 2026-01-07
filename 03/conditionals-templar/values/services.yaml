@@ -1,0 +1,10 @@
+services:
+  - name: api
+    port: 8080
+    enabled: true
+  - name: worker
+    port: 9090
+    enabled: false
+  - name: frontend
+    port: 3000
+    enabled: true
